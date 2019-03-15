@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "opencv": "https://github.com/peterbraden/node-opencv.git#available-modules",
+    "promisfy": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-istanbul": "^4.1.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
